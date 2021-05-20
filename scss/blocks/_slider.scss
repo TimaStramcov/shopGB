@@ -1,0 +1,19 @@
+.slider {
+    min-height: 777px;
+    .slide {
+        background-color: #F7F7F7;
+        min-height: 777px;
+    }
+    .slider__item {
+        margin-left: 32%;
+        width: 37%;
+        height: auto;
+    }
+    .slider__product-info {
+        height: 601px;
+        background-color: white;
+        border: 1px solid #EAEAEA;
+        margin: -65px auto 130px auto;
+        padding: 0;
+    }
+}
