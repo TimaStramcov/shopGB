@@ -35,4 +35,16 @@
     .copyright__item {
         margin: 0 8px 0 0;
     }
+    .copyright__fill-white {
+        fill: white;
+    }
+    .copyright__fill-black {
+        fill: black;
+    }
+    .copyright__svg-item:hover .copyright__fill-white {
+        fill: $dark-pink;
+    }
+    .copyright__svg-item:hover .copyright__fill-black {
+        fill: white;
+    }
 }

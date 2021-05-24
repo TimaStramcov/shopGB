@@ -15,7 +15,7 @@
     .connect__form {
         margin: 80px 0 0;
         min-width: 35%;
-        @include mobile {
+        @include tablet {
             margin-bottom: 140px;
         }
         @include mobile {
@@ -72,6 +72,10 @@
         -moz-border-radius-bottomright: 90px;
         -webkit-border-bottom-right-radius: 90px;
         border-bottom-right-radius: 90px;
+    }
+    .connect__form-button:hover {
+        background-color: white;
+        color: $dark-pink;
     }
     @media (max-width: $max-tablet-width) {
         .connect {

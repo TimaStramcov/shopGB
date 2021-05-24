@@ -1,21 +1,12 @@
 .brand {
     display: flex;
     margin: 0 0 63px;
-    position: relative;
     .brand__image {
         width: 50%;
         height: auto;
         @include mobile {
             display: none;
         }
-    }
-    .brand__blackout {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: black;
-        opacity: .3;
-        display: none;
     }
     .brand__title-wrapper {
         flex-grow: 1;
