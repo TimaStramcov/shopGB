@@ -24,6 +24,11 @@
             justify-content: center;
         }
     }
+    .product__list-grid {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-between;
+    }
     .product__card {
         max-width: 360px;
         margin: 0 0 30px;
