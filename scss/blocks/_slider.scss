@@ -3,7 +3,6 @@
     .slider__carousel {
         background-color: #F7F7F7;
         min-height: 777px;
-        z-index: -1;
     }
     .slider__button {
         background-color: #2A2A2A;
@@ -17,12 +16,13 @@
         height: auto;
     }
     .slider__product-info {
+        position: relative;
         height: 601px;
         background-color: white;
         border: 1px solid #EAEAEA;
         margin: -65px auto 130px auto;
         padding: 0;
-        z-index: 1;
+        z-index: 2;
     }
     .slider__product-info-heading {
         text-transform: uppercase;
@@ -96,7 +96,7 @@
         height: 48px;
         background-color: white;
         color: $dark-pink;
-        border-color: $dark-pink;
+        border: 1px solid $dark-pink;
         margin-left: 40%;
     }
     .slider__product-info-button-icon {
